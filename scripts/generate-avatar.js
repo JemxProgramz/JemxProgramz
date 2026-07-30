@@ -15,10 +15,11 @@ async function generateDotAvatar(inputPath, outputPath) {
     // Canvas settings
     const svgWidth = 400;
     const svgHeight = 400;
+    const fullWidth = 800;
     const cellWidth = svgWidth / columns;
     const cellHeight = svgHeight / rows;
     
-    let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgWidth} ${svgHeight}" width="${svgWidth}" height="${svgHeight}">\n`;
+    let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 ${fullWidth} ${svgHeight}" width="${fullWidth}" height="${svgHeight}">\n`;
     svgContent += `  <style>
     @keyframes pour {
       0% { transform: translateY(-200px); opacity: 0; }
@@ -35,8 +36,15 @@ async function generateDotAvatar(inputPath, outputPath) {
     svgContent += `  <defs>\n`;
     svgContent += `    <clipPath id="circleClip"><circle cx="${svgWidth/2}" cy="${svgHeight/2}" r="${svgWidth/2 - 15}" /></clipPath>\n`;
     svgContent += `  </defs>\n`;
+    svgContent += `  <!-- Background -->\n`;
+    svgContent += `  <rect x="-200" y="0" width="${fullWidth}" height="${svgHeight}" fill="#030308" />\n`;
+    
+    // Add text on the left and right (animated)
+    svgContent += `  <text x="-40" y="${svgHeight/2}" fill="#ef4444" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 500ms; letter-spacing: 2px;">Jemx</text>\n`;
+    svgContent += `  <text x="440" y="${svgHeight/2}" fill="#ffffff" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 1000ms; letter-spacing: 2px;">Devs</text>\n`;
+
     svgContent += `  <g clip-path="url(#circleClip)">\n`;
-    svgContent += `    <rect width="100%" height="100%" fill="#030308" />\n`;
+    svgContent += `    <rect x="0" y="0" width="${svgWidth}" height="${svgHeight}" fill="#06060c" />\n`;
     svgContent += `    <g>\n`; 
     
     for (let y = 0; y < rows; y++) {
@@ -84,11 +92,11 @@ async function generateDotAvatar(inputPath, outputPath) {
 
     // Add HUD elements like the reference image
     svgContent += `  <!-- HUD / Borders -->\n`;
-    svgContent += `  <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
-    svgContent += `  <path d="M 390 30 L 390 10 L 370 10" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
-    svgContent += `  <path d="M 10 370 L 10 390 L 30 390" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
-    svgContent += `  <path d="M 390 370 L 390 390 L 370 390" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
-    svgContent += `  <text x="10" y="8" fill="#52525b" font-family="monospace" font-size="8">VISUAL.MAP</text>\n`;
+    svgContent += `  <path d="M -190 30 L -190 10 L -170 10" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
+    svgContent += `  <path d="M 590 30 L 590 10 L 570 10" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
+    svgContent += `  <path d="M -190 370 L -190 390 L -170 390" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
+    svgContent += `  <path d="M 590 370 L 590 390 L 570 390" fill="none" stroke="#06b6d4" stroke-width="2" />\n`;
+    svgContent += `  <text x="-190" y="8" fill="#52525b" font-family="monospace" font-size="8">VISUAL.MAP</text>\n`;
     
     svgContent += `</svg>`;
     

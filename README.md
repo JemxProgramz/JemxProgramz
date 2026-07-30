@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=D2042D&height=250&section=header&text=Jeba%20Shalom&fontSize=80&animation=fadeIn&fontAlignY=40" alt="Header" width="100%" />
 
   <br/>
-  <img src="./matrix-avatar.svg" width="200" height="200" alt="Profile Avatar" />
+  <img src="./matrix-avatar.svg" width="600" height="300" alt="Profile Avatar" />
   <br/><br/>
 
   <a href="https://git.io/typing-svg">
