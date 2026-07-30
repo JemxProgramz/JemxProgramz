@@ -1,6 +1,10 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=D2042D&height=250&section=header&text=Jeba%20Shalom&fontSize=80&animation=fadeIn&fontAlignY=40" alt="Header" width="100%" />
 
+  <br/>
+  <img src="./matrix-avatar.svg" width="200" height="200" alt="Profile Avatar" />
+  <br/><br/>
+
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;3D+Artist;Video+Editor" alt="Typing SVG" />
   </a>
