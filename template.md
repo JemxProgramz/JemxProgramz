@@ -90,7 +90,7 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
       <img src="https://github-readme-stats-eight-theta.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=D2042D&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=D2042D&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=D2042D&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
