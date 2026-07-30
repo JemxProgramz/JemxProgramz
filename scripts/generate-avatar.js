@@ -40,8 +40,8 @@ async function generateDotAvatar(inputPath, outputPath) {
     svgContent += `  <rect x="-200" y="0" width="${fullWidth}" height="${svgHeight}" fill="#030308" />\n`;
     
     // Add text on the left and right (animated)
-    svgContent += `  <text x="-40" y="${svgHeight/2}" fill="#ef4444" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 500ms; letter-spacing: 2px;">Jemx</text>\n`;
-    svgContent += `  <text x="440" y="${svgHeight/2}" fill="#ffffff" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 1000ms; letter-spacing: 2px;">Devs</text>\n`;
+    svgContent += `  <text x="-100" y="${svgHeight/2}" fill="#ef4444" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 500ms; letter-spacing: 2px;">Jemx</text>\n`;
+    svgContent += `  <text x="500" y="${svgHeight/2}" fill="#ffffff" font-family="monospace" font-size="64" font-weight="bold" text-anchor="middle" dominant-baseline="middle" class="point" style="animation-delay: 1000ms; letter-spacing: 2px;">Devs</text>\n`;
 
     svgContent += `  <g clip-path="url(#circleClip)">\n`;
     svgContent += `    <rect x="0" y="0" width="${svgWidth}" height="${svgHeight}" fill="#06060c" />\n`;
