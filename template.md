@@ -21,7 +21,7 @@
 
 ## 👨‍💻 About Me
 
-I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institute of Technology*. My core passion lies in merging technical logic with creative design to build immersive applications and visually stunning experiences.
+I am a **Computer Science and Design (CSD) student**. My core passion lies in merging technical logic with creative design to build immersive applications and visually stunning experiences.
 
 - 🎓 **Studying:** B.E. Computer Science and Design
 - 💻 **Core Identity:** Full-Stack Web & Android Developer, Game Developer, 3D Artist, and Video Editor.
