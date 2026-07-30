@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Jetzt-App",
+    "description": "daily routine app",
+    "repo": "JemxProgramz/Jetzt-App",
+    "demo": "https://github.com/JemxProgramz/Jetzt-App",
+    "tech": [
+      "Kotlin"
+    ]
+  },
+  {
+    "name": "Jetzt",
+    "description": "help to maintain consistency",
+    "repo": "JemxProgramz/Jetzt",
+    "demo": "https://github.com/JemxProgramz/Jetzt",
+    "tech": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Cab-Booking-Website",
+    "description": "Ram Cabs & Travels represents a modern approach to local and outstation transit. Built with an emphasis on performance, usability, and scalability, this application bridges the gap between passengers and reliable transportation. From a frictionless booking funnel to a comprehensive administrative dashboard, the platform is tailored to streamline th",
+    "repo": "JemxProgramz/Cab-Booking-Website",
+    "demo": "https://github.com/JemxProgramz/Cab-Booking-Website",
+    "tech": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Jemx-CRM",
+    "description": "Major Project for the Internship",
+    "repo": "JemxProgramz/Jemx-CRM",
+    "demo": "https://github.com/JemxProgramz/Jemx-CRM",
+    "tech": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Game-Holic",
+    "description": "a way to express your emotion",
+    "repo": "JemxProgramz/Game-Holic",
+    "demo": "https://github.com/JemxProgramz/Game-Holic",
+    "tech": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Bus-Go-Project-main",
+    "description": "GitHub Repository",
+    "repo": "JemxProgramz/Bus-Go-Project-main",
+    "demo": "https://github.com/JemxProgramz/Bus-Go-Project-main",
+    "tech": [
+      "Code"
+    ]
+  }
+]

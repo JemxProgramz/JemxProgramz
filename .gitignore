@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+# Except the following:
+!/README.md
+!/template.md
+!/config/
+!/scripts/
+!/package.json
+!/.gitignore
+!/node_modules/ # Let the node_modules rule below handle it
+
+# Still ignore typical build/dev artifacts inside allowed folders
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

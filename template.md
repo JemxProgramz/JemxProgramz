@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text=Jeba Shalom&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20UI%2FUX%20Designer%20%E2%80%A2%20Creative%20Technologist&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME}}&fontSize=80&animation=fadeIn&fontAlignY=35&desc={{TITLE_ENCODED}}&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;Hackathon+Winner;3D+Artist;Video+Editor" alt="Typing SVG" />
@@ -8,13 +8,13 @@
   <br/>
   
   <p align="center">
-    <a href="https://jemxprogramz.github.io"><img src="https://img.shields.io/badge/Portfolio-%23050505.svg?style=for-the-badge&logo=firefox&logoColor=38BDF8" alt="Portfolio"/></a>
-    <a href="mailto:jebashalom.mis@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-    <a href="https://linkedin.com/in/jenslin"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://github.com/JemxProgramz"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+    <a href="{{PORTFOLIO_LINK}}"><img src="https://img.shields.io/badge/Portfolio-%23050505.svg?style=for-the-badge&logo=firefox&logoColor=38BDF8" alt="Portfolio"/></a>
+    <a href="mailto:{{EMAIL}}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://linkedin.com/in/{{LINKEDIN}}"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://github.com/{{USERNAME}}"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   </p>
 
-  <img src="https://komarev.com/ghpvc/?username=JemxProgramz&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username={{USERNAME}}&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="Profile Views" />
 </div>
 
 <br/>
@@ -144,16 +144,16 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=JemxProgramz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=JemxProgramz&theme=tokyonight&hide_border=true&background=050505&ring=7C3AED&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=7C3AED&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JemxProgramz&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&text_color=F8FAFC" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&text_color=F8FAFC" alt="Top Languages" />
 </div>
 
 <br/>
@@ -162,9 +162,9 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JemxProgramz/JemxProgramz/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JemxProgramz/JemxProgramz/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/JemxProgramz/JemxProgramz/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{{USERNAME}}/{{USERNAME}}/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{{USERNAME}}/{{USERNAME}}/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/{{USERNAME}}/{{USERNAME}}/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 

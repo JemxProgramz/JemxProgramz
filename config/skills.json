@@ -1,0 +1,10 @@
+{
+  "Languages": ["Python", "Java", "C++", "C", "JavaScript", "TypeScript", "Kotlin", "PHP", "SQL", "HTML5", "CSS3"],
+  "Frontend": ["React", "Next.js", "Tailwind CSS", "Bootstrap"],
+  "Backend": ["Node.js", "Express", "Firebase", "Supabase", "MongoDB", "PostgreSQL", "MySQL", "Oracle"],
+  "Mobile": ["Android Studio", "Kotlin", "Firebase"],
+  "Cloud & DevOps": ["AWS", "Azure", "Cloudflare", "Google Cloud Run", "Vercel", "Docker", "GitHub Actions", "Linux", "Virtual Machines"],
+  "Game Dev & 3D": ["Blender", "Unreal Engine 5", "Unity", "Godot"],
+  "Embedded": ["Arduino", "Raspberry Pi"],
+  "Design & Media": ["Figma", "Photoshop", "Illustrator", "Premiere Pro", "After Effects", "Canva", "GIMP"]
+}
