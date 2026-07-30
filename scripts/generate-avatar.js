@@ -6,8 +6,8 @@ async function generateDotAvatar(inputPath, outputPath) {
     const image = await Jimp.read(inputPath);
     
     // Set grid resolution (how many dots across)
-    const columns = 70;
-    const rows = 70;
+    const columns = 45;
+    const rows = 45;
     
     // Resize to grid resolution
     image.resize({ w: columns, h: rows });
@@ -21,22 +21,19 @@ async function generateDotAvatar(inputPath, outputPath) {
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgWidth} ${svgHeight}" width="${svgWidth}" height="${svgHeight}">\n`;
     svgContent += `  <style>
     @keyframes pour {
-      0% { transform: translateY(-400px); opacity: 0; }
-      10% { opacity: 1; }
-      20% { transform: translateY(5px); }
-      25% { transform: translateY(0); opacity: 1; }
-      80% { transform: translateY(0); opacity: 1; }
-      90% { transform: translateY(400px); opacity: 0; }
-      100% { transform: translateY(400px); opacity: 0; }
+      0% { transform: translateY(-200px); opacity: 0; }
+      15% { transform: translateY(5px); opacity: 1; }
+      20%, 80% { transform: translateY(0); opacity: 1; }
+      90%, 100% { transform: translateY(200px); opacity: 0; }
     }
     .point {
-      animation: pour 8s ease-out infinite;
+      animation: pour 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       transform-box: fill-box;
       transform-origin: center;
     }
   </style>\n`;
     svgContent += `  <defs>\n`;
-    svgContent += `    <clipPath id="circleClip"><circle cx="${svgWidth/2}" cy="${svgHeight/2}" r="${svgWidth/2 - 20}" /></clipPath>\n`;
+    svgContent += `    <clipPath id="circleClip"><circle cx="${svgWidth/2}" cy="${svgHeight/2}" r="${svgWidth/2 - 15}" /></clipPath>\n`;
     svgContent += `  </defs>\n`;
     svgContent += `  <g clip-path="url(#circleClip)">\n`;
     svgContent += `    <rect width="100%" height="100%" fill="#030308" />\n`;
@@ -52,8 +49,8 @@ async function generateDotAvatar(inputPath, outputPath) {
         
         const brightness = (r * 0.299 + g * 0.587 + b * 0.114);
         
-        // Skip very dark pixels
-        if (brightness < 10) continue;
+        // Skip darker pixels to save file size and look cleaner
+        if (brightness < 20) continue;
 
         // 2D Coordinates
         let cx = x * cellWidth + cellWidth / 2;
@@ -61,17 +58,21 @@ async function generateDotAvatar(inputPath, outputPath) {
         
         // Size and Color
         const normalized = brightness / 255;
-        const radius = normalized * (Math.min(cellWidth, cellHeight) / 2) * 1.8; 
+        const radius = normalized * (Math.min(cellWidth, cellHeight) / 2) * 1.6; 
         
         // Color grading (much brighter, more vibrant)
-        const rB = Math.min(255, Math.floor(r * 1.6 + 30));
-        const gB = Math.min(255, Math.floor(g * 1.6 + 30)); 
-        const bB = Math.min(255, Math.floor(b * 1.6 + 50)); 
+        const rB = Math.min(255, Math.floor(r * 1.5 + 40));
+        const gB = Math.min(255, Math.floor(g * 1.5 + 40)); 
+        const bB = Math.min(255, Math.floor(b * 1.5 + 60)); 
+        
+        // Convert to hex
+        const toHex = (c) => c.toString(16).padStart(2, '0');
+        const hexColor = `#${toHex(rB)}${toHex(gB)}${toHex(bB)}`;
         
         // Calculate animation delay for sandclock fill (bottom fills first)
-        const delay = ((rows - y) * 35 + Math.random() * 200).toFixed(0);
+        const delay = ((rows - y) * 45 + Math.random() * 150).toFixed(0);
         
-        svgContent += `      <circle cx="${cx.toFixed(2)}" cy="${cy.toFixed(2)}" r="${radius.toFixed(2)}" fill="rgb(${rB},${gB},${bB})" class="point" style="animation-delay: ${delay}ms" />\n`;
+        svgContent += `      <circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radius.toFixed(1)}" fill="${hexColor}" class="point" style="animation-delay: ${delay}ms" />\n`;
       }
     }
     
