@@ -7,6 +7,7 @@
 !/scripts/
 !/package.json
 !/.gitignore
+!/.github/
 !/node_modules/ # Let the node_modules rule below handle it
 
 # Still ignore typical build/dev artifacts inside allowed folders
