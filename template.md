@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME_ENCODED}}&fontSize=80&animation=fadeIn&fontAlignY=35&desc={{TITLE_ENCODED}}&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME_ENCODED}}&fontSize=80&animation=fadeIn&fontAlignY=40" alt="Header" width="100%" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;Hackathon+Winner;3D+Artist;Video+Editor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;3D+Artist;Video+Editor" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -27,25 +27,6 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 - 💻 **Core Identity:** Full-Stack Web & Android Developer, Game Developer, 3D Artist, and Video Editor.
 - 🚀 **Currently Focusing On:** Elevating my skills in Unreal Engine 5 and advanced Full-Stack architecture.
 - 🎨 **Philosophy:** Bridging the gap between engineering and art to deliver seamless, high-performance software.
-
-<br/>
-
-## 🏆 The Trophy Room
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <h3>🥇 Smart India Hackathon</h3>
-      <p><b>Winner (Dec 2025)</b></p>
-      <p><i>Recognized for building an innovative tech solution addressing a critical real-world problem statement on a national level.</i></p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🏆 Veltech Visai'26</h3>
-      <p><b>1st Prize Winner - SDG Hackathon (Feb 2026)</b></p>
-      <p><i>Secured first place for developing a sustainable, technology-driven project aligned with UN Sustainable Development Goals.</i></p>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
@@ -135,25 +116,6 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&color=050505" alt="Windows"/>&nbsp;
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white&color=050505" alt="Linux"/>
 
-</div>
-
-<br/>
-
-## 📈 GitHub Analytics
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=7C3AED&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&text_color=F8FAFC" alt="Top Languages" />
 </div>
 
 <br/>
