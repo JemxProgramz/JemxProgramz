@@ -120,6 +120,25 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 
 <br/>
 
+## 📈 GitHub Analytics
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=7C3AED&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&text_color=F8FAFC" alt="Top Languages" />
+</div>
+
+<br/>
+
 ## 🐍 Contribution Graph
 
 <div align="center">
