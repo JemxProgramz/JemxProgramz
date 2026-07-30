@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME_ENCODED}}&fontSize=80&animation=fadeIn&fontAlignY=40" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=EF4444&height=250&section=header&text={{NAME_ENCODED}}&fontSize=80&animation=fadeIn&fontAlignY=40" alt="Header" width="100%" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;3D+Artist;Video+Editor" alt="Typing SVG" />
@@ -14,7 +14,7 @@
     <a href="https://github.com/{{USERNAME}}"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   </p>
 
-  <img src="https://komarev.com/ghpvc/?username={{USERNAME}}&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username={{USERNAME}}&label=Profile%20Views&color=EF4444&style=for-the-badge" alt="Profile Views" />
 </div>
 
 <br/>
@@ -98,16 +98,16 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=EF4444&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=7C3AED&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=EF4444&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=7C3AED&text_color=F8FAFC" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=EF4444&text_color=F8FAFC" alt="Top Languages" />
 </div>
 
 <br/>
@@ -125,5 +125,5 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=100&section=footer" alt="Footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=EF4444&height=100&section=footer" alt="Footer" width="100%" />
 </div>
