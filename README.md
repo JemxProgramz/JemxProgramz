@@ -30,24 +30,6 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 
 <br/>
 
-## 🏆 The Trophy Room
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <h3>🥇 Smart India Hackathon</h3>
-      <p><b>Winner (Dec 2025)</b></p>
-      <p><i>Recognized for building an innovative tech solution addressing a critical real-world problem statement on a national level.</i></p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🏆 Veltech Visai'26</h3>
-      <p><b>1st Prize Winner - SDG Hackathon (Feb 2026)</b></p>
-      <p><i>Secured first place for developing a sustainable, technology-driven project aligned with UN Sustainable Development Goals.</i></p>
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 ## ⚔️ Tech Stack & Tools
 
