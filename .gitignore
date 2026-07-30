@@ -8,6 +8,8 @@
 !/package.json
 !/.gitignore
 !/.github/
+!/matrix-avatar.svg
+!/profile.jpg
 !/node_modules/ # Let the node_modules rule below handle it
 
 # Still ignore typical build/dev artifacts inside allowed folders
