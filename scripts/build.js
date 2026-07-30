@@ -12,6 +12,7 @@ let template = fs.readFileSync(path.join(process.cwd(), 'template.md'), 'utf8');
 
 // Replace simple placeholders
 template = template.replace(/\{\{NAME\}\}/g, profile.name);
+template = template.replace(/\{\{NAME_ENCODED\}\}/g, encodeURIComponent(profile.name));
 template = template.replace(/\{\{USERNAME\}\}/g, profile.username);
 template = template.replace(/\{\{TITLE_ENCODED\}\}/g, encodeURIComponent(profile.title));
 template = template.replace(/\{\{TAGLINE\}\}/g, profile.tagline);

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text=Jeba Shalom&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20UI%2FUX%20Designer%20%E2%80%A2%20Creative%20Technologist&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text=Jeba%20Shalom&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20UI%2FUX%20Designer%20%E2%80%A2%20Creative%20Technologist&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;Hackathon+Winner;3D+Artist;Video+Editor" alt="Typing SVG" />
@@ -30,6 +30,24 @@ I am a **3rd-year Computer Science and Design (CSD) student** at *Sethu Institut
 
 <br/>
 
+## 🏆 The Trophy Room
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <h3>🥇 Smart India Hackathon</h3>
+      <p><b>Winner (Dec 2025)</b></p>
+      <p><i>Recognized for building an innovative tech solution addressing a critical real-world problem statement on a national level.</i></p>
+    </td>
+    <td width="50%" align="center">
+      <h3>🏆 Veltech Visai'26</h3>
+      <p><b>1st Prize Winner - SDG Hackathon (Feb 2026)</b></p>
+      <p><i>Secured first place for developing a sustainable, technology-driven project aligned with UN Sustainable Development Goals.</i></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 ## ⚔️ Tech Stack & Tools
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME}}&fontSize=80&animation=fadeIn&fontAlignY=35&desc={{TITLE_ENCODED}}&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text={{NAME_ENCODED}}&fontSize=80&animation=fadeIn&fontAlignY=35&desc={{TITLE_ENCODED}}&descAlignY=55&descAlign=50&descSize=20" alt="Header" width="100%" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Unreal+Engine+Dev;Hackathon+Winner;3D+Artist;Video+Editor" alt="Typing SVG" />
