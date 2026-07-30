@@ -100,7 +100,7 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
       <img src="https://github-readme-stats-eight-theta.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=D2042D&icon_color=38BDF8&text_color=F8FAFC" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=D2042D&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background=050505&ring=D2042D&fire=06B6D4&currStreakNum=F8FAFC" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
@@ -114,12 +114,10 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
 
 <br/>
 
-## 🏆 GitHub Badges (Trophies)
+## 🏆 GitHub Profile Summary
 
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username={{USERNAME}}&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&title-text-color=D2042D" alt="GitHub Trophies" />
-  </a>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{USERNAME}}&theme=tokyonight" alt="GitHub Profile Summary" />
 </div>
 
 <br/>

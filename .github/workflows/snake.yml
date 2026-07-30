@@ -14,6 +14,9 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate snake game from a GitHub user contribution grid
         uses: Platane/snk/svg-only@v3
         with:
