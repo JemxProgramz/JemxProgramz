@@ -14,7 +14,7 @@
   <p align="center">
     <a href="https://jemxprogramz.github.io"><img src="https://img.shields.io/badge/Portfolio-%23050505.svg?style=for-the-badge&logo=firefox&logoColor=38BDF8" alt="Portfolio"/></a>
     <a href="mailto:jebashalom.mis@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-    <a href="https://linkedin.com/in/jeba-shalom"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://linkedin.com/in/jenslin"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="https://github.com/JemxProgramz"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   </p>
 
