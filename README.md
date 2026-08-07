@@ -105,6 +105,17 @@ I am a **Computer Science and Design (CSD) student**. My core passion lies in me
 
 <br/>
 
+
+<br/>
+
+## 🏆 GitHub Profile Summary
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JemxProgramz&theme=tokyonight" alt="GitHub Profile Summary" />
+</div>
+
+<br/>
+
 ## 💬 Developer Quote
 
 <div align="center">
